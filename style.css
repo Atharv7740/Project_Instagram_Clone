@@ -1,31 +1,66 @@
-.leftcontainer{
-    position:absolute;
-    left:0px;
-    background-color: rgb(227, 100, 100);
-    width:200px;
-    height:800px;
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.midcontainer{
-    position:absolute;
-    left:200px;
-    width:800px;
-    height:800px;
-    background-color:rgb(123, 123, 155);
+
+.navbar{
+    width: 990px;
+    margin: 20px auto;
+    padding:20px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.rightcontainer{
-    position:absolute;
-    right:0px;
-    width:300px;
-    height:800px;
-    background-color: rgb(228, 228, 40);
+.button{
+    background-color: white;
+    border: 1px lightgrey solid;
+    border-radius: 12px;
+    margin: 0;
+    padding:15px 30px;
+    font-size: 16px;
+    
+}
+.logo{
+    height: 50px
+}
+
+.stories{
+    width: 990px;
+    margin:20px auto;
+    display: flex;
+    gap:10px;
+}
+.story{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.userstory{
+    text-align: center;
+}
+.user-name{
+    margin-top:0;
+}
+.container{
+    width:990px;
+    gap:40px;
+    
+    margin:50px auto;
+    display:flex;
+
+}
+.feeds{
+    width:590px;
+}
+.sidebar{
+    width:400px;
 }
 .post{
 
     border:2px lightgrey solid;
-    width:400px;
-    margin: 100px auto;
+    
     border-radius: 15px;
-    padding:0px 8px 0px 8px
+    padding:8px 8px;
+    margin-bottom:20px;
 
 
 }
@@ -88,8 +123,10 @@
 }
 .pic{
     width:100%;
+    height:300px;
     border-radius: 14px;
 }
+
 
 .footerfirst{
     /* border:2px green solid; */
@@ -106,9 +143,11 @@
     gap:10px;
 }
 .comment{
+    margin-top: 0px;
     display:flex;
     align-items: center;
-    gap:5px;
+    gap:3px;
+    margin: 0px;
 }
 .profile1{
     border-radius: 50%;
@@ -120,12 +159,28 @@
 .verifiedname1{
     display:flex;
     align-items: center;
-    gap:3px;
+    gap:2px;
 }
 #likes{
     font-size: 15px;
+    margin-top: -8px;
+}
+.caption{
+    display:flex;
+    gap:9px;
+    margin-top:-13px;
+
+}
+#viewallcomment{
     margin-top: 0px;
 }
-caption{
-    display:flex;
+.plystr{
+    height:150px;
+}
+.appstr{
+    height:150px;
+
+}
+.mgtop{
+    margin-top: 0;
 }
